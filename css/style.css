@@ -154,15 +154,24 @@ hr{
     .container-element-one{
       height: 500px;
       width: 65%;
-      background-color: #1E8FF7;
-      border: 1px dotted black;
     }
   
     .container-element-two{
       height: 500px;
       width: 45%;
-      background-color: #F9BFCB;
-      border: 1px dotted black;
+      font-family: sans-serif;
+    }
+
+    .container-element-two>.title{
+      font-size: 56px;
+      text-align: start;
+      margin-bottom: 30px;
+    }
+
+    .container-element-two>.text{
+      font-size: 20px;
+      text-align: start;
+      line-height: 30px;
     }
 
     .big{
