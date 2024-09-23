@@ -175,14 +175,46 @@ hr{
     }
 
     .big{
-      height: 900px;
+      height: 1200px;
     }
 
     .container-big-element{
-      height: 800px;
+      height: 1100px;
       width: 100%;
-      background-color: #228822;
-      border: 1px dotted black;
+      font-family: sans-serif;
+      text-align: center;
+    }
+
+    .container-big-element>.title{
+      font-size: 56px;
+      text-align: start;
+      margin-bottom: 30px;
+    }
+
+    .container-big-element>.text{
+      font-size: 20px;
+      text-align: start;
+      line-height: 30px;
+      text-align: center;
+    }
+
+    .container-big-element img{
+      height: 700px;
+    }
+
+    .container-big-element h2{
+      font-size: 30px;
+      background-image: url(../img/stars.svg);
+      line-height: 70px;
+      width: 600px;
+      margin: 0 auto;
+    }
+
+    .container-big-element>.button{
+      background-color: #7289DA;
+      border: 1px solid #7289DA;
+      color: white;
+      margin-top: 50px;
     }
 
      /* # Footer */
